@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kushagra_bhardwaj.tiltfire"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85eb61f2-588a-4c6c-bf67-c230bd27f95c"
+      }
+    },
+    "owner": "kushagra_bhardwaj"
   }
 }
