@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.thedittya471.tiltfire",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -28,6 +29,11 @@
           "backgroundColor": "#ffffff"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "02515efe-84f2-459e-bcdd-719fb30593ec"
+      }
+    }
   }
 }
