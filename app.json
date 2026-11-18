@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.saty_satyam1122.tiltfire"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a559d495-865e-4e96-94d2-e41d133a76b3"
+      }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
